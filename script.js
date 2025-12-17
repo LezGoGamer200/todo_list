@@ -92,7 +92,7 @@ function edit(ind) {
   todoArray = JSON.parse(todo);
   // assign the text.value to the array and get the index [ind].
   console.log(todoArray[ind]);
-  todoArray[saveInd.value] = text.value;
+  text.value = todoArray[saveInd.value];
   // set the addTaskButton display to none
   addTaskButton.style.display = "none";
   // set the saveTaskButton display to block
