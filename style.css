@@ -1,0 +1,8 @@
+body {
+  background-image: url("./hufflepuff_cr.JPG");
+}
+#task_box {
+  background-color: black;
+  border: solid, yellow, 2px;
+  border-radius: 7px;
+}
